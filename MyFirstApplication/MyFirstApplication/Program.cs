@@ -6,7 +6,7 @@ Console.WriteLine("Hello, World!");
 // House myHouse = new House();
 // myHouse.DoorOpenClose();
 
-//The below statement calls a local function
+// The below statement calls a local function
 // single line comment
 HouseExample();
 
@@ -20,6 +20,20 @@ inside that member.
 
 void HouseExample()
 {
-    House myHouse  new House();
+    House myHouse; new House();
     myHouse.DoorOpenClose();
+}
+
+
+// This local function is for my first exercise lab.
+
+CSharp myCSharp = new CSharp();
+myCSharp.Hello();
+
+CSharpExample();
+
+void CSharpExample()
+{
+    CSharp myCSharp; new CSharp();
+    myCSharp.Hello();
 }
