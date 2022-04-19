@@ -2,8 +2,8 @@
 namespace MyFirstApplication;
 
 public class CSharp
-{
-    public void Hello()
+{ 
+    public void DoorOpenClose()
     {
         Console.WriteLine("This is my first sentence.");
         Console.WriteLine("I am new to Csharp.");
