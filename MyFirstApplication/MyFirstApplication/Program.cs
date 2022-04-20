@@ -17,12 +17,41 @@ They are specific to that memer and can only be called
 inside that member.
  */
 
-// Lesson Examples
-// HouseExample();
+// Lesson Examples:
+// Lesson2Example()
+// Lesson1Example()
+// HouseExample(); 
+// Lesson1Example();
+Lesson2Example();
+
+// Lesson 2 Strings
+void Lesson2Example()
+{
+    Lesson2 myLesson2 = new Lesson2();
+    myLesson2.MyTrimExample();
+    int able = myLesson2.MyStringLength();
+    Console.WriteLine(able);
+    myLesson2.MyEqualsExample("Hello World");
+    myLesson2.MyExampleChar();
+    Console.WriteLine(myLesson2.myEscapeExample());
+    myLesson2.MyJoinedStrings("CSharp", "Rules");
+    Console.WriteLine(myLesson2.MyInterpolationExample("pizza", 3));
+    myLesson2.MyOtherInterpolation();
+}
+
+// Lesson 1 Value Types
+void Lesson1Example()
+{
+    Lesson1 myLesson = new Lesson1();
+    myLesson.IntMinMax();
+    myLesson.IntergralExample();
+    myLesson.ConvertFloatToInt();
+    myLesson.LongFromInt();
+}
 
 void HouseExample()
 {
-    House myHouse; new House();
+    House myHouse = new House();
     myHouse.DoorOpenClose();
 }
 
@@ -38,17 +67,11 @@ void CSharpFunction()
     Console.WriteLine("I am learning stuff every day.");
 }
 
-// Lesson 1 Value Types
-void Lesson1Example()
-{
-    Lesson1 myLesson = new Lesson1();
-    myLesson.IntMinMax();
-    myLesson.IntergralExample();
-    myLesson.ConvertFloatToInt();
-    myLesson.LongFromInt();
-}
 
 // Excercise1
+Exercise1Answer();
+
+
 void Exercise1Answer()
 {
     Exercise1 myExercise = new Exercise1();
