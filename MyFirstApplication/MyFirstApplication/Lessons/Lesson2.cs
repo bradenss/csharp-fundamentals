@@ -11,13 +11,13 @@ internal class Lesson2
     // String Method - Trim
     public void MyTrimExample()
     {
-        strong str = " Word "
+        string str = " World ";
         // before trim
         Console.WriteLine(str);
         // trim
         string myTrim = str.Trim();
         // after trim
-        Consle.WriteLine(myTime);
+        Console.WriteLine(myTrim);
     }
 
     // String method - Equals
@@ -32,7 +32,7 @@ internal class Lesson2
         Console.WriteLine(myString.ToUpper());
         Console.WriteLine(myString.ToLower());
     }
-    // String MEthod _ Length
+    // String Method _ Length
     public int MyStringLength()
     {
         return myString.Length;
@@ -61,7 +61,7 @@ internal class Lesson2
     }
     public string MyInterpolationExample(string food, int amount)
     {
-        return $"My Favorite food is {fiid} and I ate {amount} servings of it";
+        return $"My Favorite food is {food} and I ate {amount} servings of it";
     }
 
     // ($"|{"Number", -10} | {"Order", 15}|");

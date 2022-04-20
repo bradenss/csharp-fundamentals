@@ -92,3 +92,24 @@ void Exercise1Answer()
     myExercise.UIntMinMAx();
     myExercise.DecimalMinMax1();
 }
+// Excercise 2
+void Exercise2()
+{ 
+    Exercise2 myExercise2 = new Exercise2();
+    // Question 1
+    myExercise2.MyTrim();
+    myExercise2.MyLower();
+    myExercise2.MyEquals
+    int beta = myExercise2.MyStringLength();
+    Console.WriteLine(beta);
+    myExercise2.MyEquals();
+    // Question 2
+    myExercise2.MyChar();
+    // Question 3
+    Console.WriteLine(myExercise2.myJackandJillSong());
+    // Question 4
+    Console.WriteLine(myExercise2.MyName("Braden"));
+    Console.WriteLine(myExercise2.MyName("LOTR"));
+    Console.WriteLine(myExercise2.MyName("Speers"));
+    Console.WriteLine(myExercise2.MyName("Mountain Dew"));
+}
