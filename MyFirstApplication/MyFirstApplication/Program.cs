@@ -8,7 +8,7 @@ Console.WriteLine("Hello, World!");
 
 // The below statement calls a local function
 // single line comment
-// HouseExample();
+HouseExample();
 
 /*
  multi-line comment
@@ -18,22 +18,20 @@ They are specific to that memer and can only be called
 inside that member.
  */
 
-// void HouseExample()
-/* {
+void HouseExample()
+{
     House myHouse; new House();
     myHouse.DoorOpenClose();
-}*/
-
+}
 
 // This local function is for my first exercise lab.
 
-CSharp myCSharp = new CSharp();
-myCSharp.DoorOpenClose();
+CSharpFunction();
 
-CSharpExample();
-
-void CSharpExample()
+void CSharpFunction()
 {
-    CSharp myCSharp; new CSharp();
-    myCSharp.DoorOpenClose();
+    Console.WriteLine("This is my first sentence.");
+    Console.WriteLine("I am new to Csharp.");
+    Console.WriteLine("This CSharp course is cool.");
+    Console.WriteLine("I am learning stuff every day.");
 }

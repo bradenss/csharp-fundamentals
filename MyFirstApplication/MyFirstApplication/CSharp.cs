@@ -2,7 +2,7 @@
 namespace MyFirstApplication;
 
 public class CSharp
-{ 
+{
     public void DoorOpenClose()
     {
         Console.WriteLine("This is my first sentence.");
