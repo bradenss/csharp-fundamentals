@@ -62,7 +62,7 @@ internal class Lesson1
         Console.WriteLine(UInt16.MaxValue);
     }
 
-    // unint range 0 -4,294,967,295
+    // unint range 0 - 4,294,967,295
     uint myUint = 4532U;
 
     public void UIntMinMAx()
@@ -106,7 +106,7 @@ internal class Lesson1
     public void DecimalMinMax()
     {
         Console.WriteLine(Decimal.MinValue);
-        Console.WriteLine(Decimal.MinValue);
+        Console.WriteLine(Decimal.MaxValue);
     }
 
     //Intergral Literals
@@ -131,7 +131,7 @@ internal class Lesson1
     // You have to provide permission to cast from a higher type
     // to a lower type.
 
-    public void ConvertFloastToInt()
+    public void ConvertFloatToInt()
     {
         int converted = (int)myFloat;
         Console.WriteLine(converted);

@@ -44,6 +44,28 @@ void Lesson1Example()
     Lesson1 myLesson = new Lesson1();
     myLesson.IntMinMax();
     myLesson.IntergralExample();
-    myLesson.ConvertFloastToInt();
+    myLesson.ConvertFloatToInt();
     myLesson.LongFromInt();
+}
+
+// Excercise1
+void Exercise1Answer()
+{
+    Exercise1 myExercise = new Exercise1();
+    // Question 1
+    myExercise.IntergralNumbers();
+    // Question 2
+    myExercise.ConvertByteToInt();
+    myExercise.ConvertShortToLong();
+    myExercise.ConvertInttoFloat();
+    // Question 3
+    myExercise.ConvertDoubleToLong();
+    myExercise.ConvertFloatToInt();
+    myExercise.ConvertLongtoShort();
+    // Question 4
+    myExercise.DecimalMinMax();
+    myExercise.LongMinMax();
+    myExercise.UshortMinMax();
+    myExercise.UIntMinMAx();
+    myExercise.DecimalMinMax1();
 }
