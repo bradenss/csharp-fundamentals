@@ -18,12 +18,32 @@ inside that member.
  */
 
 // Lesson Examples:
+Lesson3Example();
 // Lesson2Example()
 // Lesson1Example()
 // HouseExample(); 
-// Lesson1Example();
-Lesson2Example();
 
+// Lesson 3 Operators and Overflow Checking
+void Lesson3Example()
+{
+    Lesson3 mylesson3 = new Lesson3();
+    // mylesson3.BaasicCheckedOperator(14);
+    // mylesson3.BaasicCheckedExample2();
+    /*int alpha = 2147483647;
+    int total = alpha + 10;
+    Console.WriteLine(total);
+    */
+    /* -2147483639 this is the answer above since it went 
+     past pos max it starts at neg max and goes back to 0.
+    */
+    //mylesson3.BasicUncheckedExample();
+    // mylesson3.BasicMath();
+    // mylesson3.BasicModulus(783);
+    // mylesson3.BasicBooleanLogical(true, false);
+    // mylesson3.BasicCompundExample(12, 35, 9);
+    // mylesson3.BasicRelationalExample("tom", "Tom");
+    mylesson3.MyIncrDecrExample();
+}
 // Lesson 2 Strings
 void Lesson2Example()
 {
