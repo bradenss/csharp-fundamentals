@@ -168,3 +168,15 @@ void Exercise3()
     // Question 4
     myExercise3.Boolean(true, false);
 }
+
+// Excercise 4
+void Exercise4()
+{
+    // Question 1
+    Exercise4 myExercise4 = new Exercise4();
+    myExercise4.IfElseStatement(10);
+    // Question 2
+    myExercise4.ForeachStatement(E);
+    // Question3
+    myExercise4.JumpStatement();
+}

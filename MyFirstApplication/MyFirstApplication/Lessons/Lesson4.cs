@@ -1,7 +1,7 @@
 ﻿
 namespace MyFirstApplication;
 
-/* Lesson 4 - ontrol Flow Statements */
+/* Lesson 4 - Control Flow Statements */
 internal class Lesson4
 {
         // basic if statement 
@@ -15,7 +15,7 @@ internal class Lesson4
         Console.WriteLine("After if statement");
     }
 
-    // basif if-else statement
+    // basic if-else statement
     public void BasicIfElseStatement(int able)
     {
         if (able >= 15)
@@ -41,7 +41,7 @@ internal class Lesson4
         }
     }
 
-    // Basic if with Boolean Logicak Operators
+    // Basic if with Boolean Logical Operators
     public void BasicAndOrCondition(int charlie, int delta)
     {
         if(charlie > 15 && delta < 30)
