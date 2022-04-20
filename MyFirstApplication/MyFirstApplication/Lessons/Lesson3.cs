@@ -20,7 +20,7 @@ internal class Lesson3
         int able = 10;
         checked
         {
-            int total = 2147483647 + able:
+            int total = 2147483647 + able;
             Console.WriteLine(total);
         }
     }

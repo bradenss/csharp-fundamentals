@@ -18,11 +18,28 @@ inside that member.
  */
 
 // Lesson Examples:
-Lesson3Example();
+Lesson4Example();
+// Lesson3Example();
 // Lesson2Example()
 // Lesson1Example()
 // HouseExample(); 
 
+// Lesson 4 Control Flow
+void Lesson4Example()
+{
+    Lesson4 myLesson4 = new Lesson4();
+    // myLesson4.BasicIfStatement(12);
+    // myLesson4.BasicIfElseStatement(15);
+    // myLesson4.BasicifElseChainStatement(10);
+    // myLesson4.BasicAndOrCondition(20, 20);
+    // Console.WriteLine(myLesson4.BasicTernaryExample(25));
+    // myLesson4.BasicSwitchStatement(5);
+    // myLesson4.BasicWhileStatment();
+    // myLesson4.BasicDoStatement();
+    // myLesson4.BasicForStatement();
+    // myLesson4.BasicForeachStatement();
+    myLesson4.BasicJumpStatement();
+}
 // Lesson 3 Operators and Overflow Checking
 void Lesson3Example()
 {
@@ -42,7 +59,7 @@ void Lesson3Example()
     // mylesson3.BasicBooleanLogical(true, false);
     // mylesson3.BasicCompoundExample(12, 35, 9);
     // mylesson3.BasicRelationalExample("tom", "Tom");
-    mylesson3.MyIncrDecrExample();
+    // mylesson3.MyIncrDecrExample();
 }
 // Lesson 2 Strings
 void Lesson2Example()
@@ -81,10 +98,10 @@ void HouseExample()
 
 void CSharpFunction()
 {
-    Console.WriteLine("This is my first sentence.");
+    /*Console.WriteLine("This is my first sentence.");
     Console.WriteLine("I am new to Csharp.");
     Console.WriteLine("This CSharp course is cool.");
-    Console.WriteLine("I am learning stuff every day.");
+    Console.WriteLine("I am learning stuff every day.");*/
 }
 
 
@@ -119,7 +136,7 @@ void Exercise2()
     // Question 1
     myExercise2.MyTrim();
     myExercise2.MyLower();
-    myExercise2.MyEquals
+    myExercise2.MyEquals();
     int beta = myExercise2.MyStringLength();
     Console.WriteLine(beta);
     myExercise2.MyEquals();
