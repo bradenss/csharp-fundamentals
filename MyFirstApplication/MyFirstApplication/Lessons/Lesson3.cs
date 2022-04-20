@@ -70,7 +70,7 @@ internal class Lesson3
     }
 
     // Compound Assignment Opperators
-    public void BasicCompundExample(int val1, int val2, int val3)
+    public void BasicCompoundExample(int val1, int val2, int val3)
     {
         // val1 = 12, val2 = 35
         // same as val1 = val1 + val2 or val1 = 12 + 35

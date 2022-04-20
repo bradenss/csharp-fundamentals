@@ -40,7 +40,7 @@ void Lesson3Example()
     // mylesson3.BasicMath();
     // mylesson3.BasicModulus(783);
     // mylesson3.BasicBooleanLogical(true, false);
-    // mylesson3.BasicCompundExample(12, 35, 9);
+    // mylesson3.BasicCompoundExample(12, 35, 9);
     // mylesson3.BasicRelationalExample("tom", "Tom");
     mylesson3.MyIncrDecrExample();
 }
@@ -132,4 +132,22 @@ void Exercise2()
     Console.WriteLine(myExercise2.MyName("LOTR"));
     Console.WriteLine(myExercise2.MyName("Speers"));
     Console.WriteLine(myExercise2.MyName("Mountain Dew"));
+}
+
+// Exercise 3
+void Exercise3()
+{
+    // Question 1
+    Exercise3 myExercise3 = new Exercise3();
+    myExercise3.BasicModulus(15);
+    myExercise3.BasicModulus2(456);
+    myExercise3.BasicModulus2(23);
+    myExercise3.BasicModulus3(89);
+    myExercise3.BasicModulus3(245);
+    // Question 2
+    myExercise3.BasicMath();
+    // Question 3
+    myExercise3.Compound(15, 10);
+    // Question 4
+    myExercise3.Boolean(true, false);
 }
