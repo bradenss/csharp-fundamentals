@@ -18,7 +18,7 @@ inside that member.
  */
 
 // Lesson Examples:
-Lesson6Example();
+// Lesson6Example();
 // Lesson5Example();
 // Lesson4Example();
 // Lesson3Example();
@@ -260,4 +260,18 @@ void Exercise5()
     myExercise5.Question2("T");
     myExercise5.Question3(7);
 
+}
+
+Exercise6();
+void Exercise6()
+{
+    Exercise6 myExercise6 = new Exercise6("Jordan", 11);
+    Exercise6 myShoe = new Exercise6("Nike", 11);
+    Console.WriteLine(myShoe.shoeSize);
+    Console.WriteLine(myShoe.shoeType);
+    myShoe.shoeType = "Jordan";
+    myShoe.shoeSize = 10;
+    Exercise6.TryOn theNewShoe;
+    theNewShoe = myExercise6.TryOnShoe;
+    theNewShoe($"Trying a {myExercise6.shoeType} shoe");
 }
