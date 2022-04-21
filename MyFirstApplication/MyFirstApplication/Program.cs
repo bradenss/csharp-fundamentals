@@ -321,7 +321,7 @@ void Exercise6()
     theNewShoe($"Trying a {myExercise6.shoeType} shoe");
 }
 
-Exercise7();
+// Exercise7();
 void Exercise7()
 {
     Employee myEmployee = new Employee(514, "Jeff");
@@ -331,5 +331,12 @@ void Exercise7()
     Boat material = new Boat("coal");
     // material.CargoShip();
     Console.WriteLine(material);
+}
 
+Exercise8();
+void Exercise8()
+{
+    Exercise8 myExercise8 = new Exercise8(2);
+    myExercise8.Question1();
+    Console.WriteLine(Exercise8static.Question2(45, 45));
 }

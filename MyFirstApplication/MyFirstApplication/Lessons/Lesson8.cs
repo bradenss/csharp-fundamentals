@@ -7,7 +7,7 @@ namespace MyFirstApplication;
  */
 internal class Lesson8
 {
-    // Constant cariables
+    // Constant variables
     public const int Months = 12; // per year
     public const int Weeks = 52; // per year
     public const int Days = 365; // per year
