@@ -210,3 +210,13 @@ void Exercise4()
     // Question3
     myExercise4.Question3();
 }
+
+Exercise5();
+void Exercise5()
+{
+    Exercise5 myExercise5 = new Exercise5();
+    myExercise5.Question1();
+    myExercise5.Question2("T");
+    myExercise5.Question3(7);
+
+}
