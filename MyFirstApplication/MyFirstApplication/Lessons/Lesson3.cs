@@ -28,7 +28,7 @@ internal class Lesson3
     // Unchecked will removed the Exception from constant values
     public void BasicUncheckedExample()
     {
-        int total = unchecked(Int32.MaxValue = 10);
+        int total = unchecked( Int32.MaxValue + 10);
         Console.WriteLine(total);
     }
 
@@ -82,7 +82,7 @@ internal class Lesson3
     }
 
     // Relational Operators
-    public void BasicRelationalExample(strong name, string beta)
+    public void BasicRelationalExample(string name, string beta)
     {
         Console.WriteLine(name == beta);
         Console.WriteLine(name != beta);
@@ -91,7 +91,7 @@ internal class Lesson3
     // This method will show increment and decrement
     public void MyIncrDecrExample()
     {
-        int alpha = 11, beta 16;
+        int alpha = 11, beta = 16;
         alpha++; // post increment
         Console.WriteLine(alpha);
         ++alpha; // pre increment

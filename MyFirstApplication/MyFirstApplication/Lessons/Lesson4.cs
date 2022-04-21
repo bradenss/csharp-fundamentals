@@ -108,7 +108,7 @@ internal class Lesson4
     {
         for(int i = 0; i < 12; i++)
         {
-            Console.WriteLine($"For Number = {i}")
+            Console.WriteLine($"For Number = {i}");
         }
         
     }

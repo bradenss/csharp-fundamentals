@@ -52,7 +52,7 @@ internal class Lesson2
     // Escape Sequence
     public string myEscapeExample()
     {
-        return "that\s a cool car. \tCan I \ndrive it sometime?";
+        return "that\'s a cool car. \tCan I \ndrive it sometime?";
     }
     // Concatenation - with 2 string parameters
     public void MyJoinedStrings(string value1, string value2)

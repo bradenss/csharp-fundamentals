@@ -3,15 +3,14 @@ namespace MyFirstApplication;
 
 internal class Exercise1
 {
-    public long myShort;
-    public float myFloat;
-    public int myInt;
-    public long myDouble;
-    public int myFloat1;
-    public short myLong;
+    /*Write out a method with no arguments and a void return type that will
+print the output of the number 35 based on the number systems below.
+The values should be assigned to a variable inside the method prior to
+printing them using Console WriteLine.Utilize the conversion document
+from your resources.
+    */
 
-    // Question 1
-    public void IntergralNumbers()
+    public void Question1()
     {
         // value of 35
         int value1 = 35; // decimal
@@ -22,81 +21,102 @@ internal class Exercise1
         Console.WriteLine(value3);
     }
 
-    // Question 2 
+    /*Write a method that will accept 3 argument parameters and a void return
+type. The first argument should be of type byte. The second argument
+should be of type short. The third argument should be of type int. Using
+Implicit conversion, create variables to convert to using the below
+information. Use the argument parameters as the values to convert from.
+Print each converted variable using Console WriteLine.
+a. From byte to int
+b. From short to long
+    */
     // Part A
-    public void ConvertByteToInt()
+    public void Question2(int myInt)
     {
         int converted = (int)myInt;
         Console.WriteLine(converted);
     }
     // Part B
-    public void ConvertShortToLong()
+    public void Question2b(long myShort)
     {
         long converted = (long)myShort;
         Console.WriteLine(converted);
     }
     // Part C
-    public void ConvertInttoFloat()
+    public void Question2c(float myFloat)
     {
         float converted = (float)myFloat;
         Console.WriteLine(converted);
     }
-    // Question 3
+    /*Write a method that will accept 3 argument parameters and a void return
+type. The first argument should be of type double. The second argument
+should be of type float. The third argument should be of type long. Using
+Explicit conversion, create variables to convert to using the below
+information. Use the argument parameters as the values to convert from.
+Print each converted variable using Console WriteLine.
+a. From double to long
+b. From float to int
+c. From long to short
+    */
+
     // Part A
-    public void ConvertDoubleToLong()
+    public void Question3(long myDouble)
     {
         long converted = (long)myDouble;
         Console.WriteLine(converted);
     }
     // Part B
-    public void ConvertFloatToInt()
+    public void Question3b(int myFloat)
     {
-        int converted = (int)myFloat1;
+        int converted = (int)myFloat;
         Console.WriteLine(converted);
     }
     // Part C
-    public void ConvertLongtoShort()
+    
+    public void Question3c(short myLong)
     {
         short converted = (short)myLong;
         Console.WriteLine(converted);
     }
-    // Question 4
-    // Part A
-    decimal myDecimal = 123456.987M;
+    /* a method with no arguments and a void return type.Using the
+    values below, assign them to a variable that best suits their value type.
+    Utilize the digit separator when assigning them to your variables.Once you
+    have defined your variables, print out each one using Console WriteLine.Do
+    not use the same value type more than once.
+    a. 123456.987
+b. -9516248
+c. 3500
+d. 988562486
+e. -19733.14895     
+    */
 
-    public void DecimalMinMax()
+    public void Question4(decimal arg)
     {
         Console.WriteLine(Decimal.MinValue);
         Console.WriteLine(Decimal.MaxValue);
     }
-    // Part B
-    long myLong1 = -9516248L;
 
-    public void LongMinMax()
+    public void Question4b(long arg)
     {
-        Console.WriteLine(int.MinValue);
-        Console.WriteLine(int.MaxValue);
+        Console.WriteLine(long.MinValue);
+        Console.WriteLine(long.MaxValue);
     }
-    // Part C
-    ushort myUShort = 42;
 
-    public void UshortMinMax()
+
+    public void Question4c(UInt16 arg)
     {
         Console.WriteLine(UInt16.MinValue);
         Console.WriteLine(UInt16.MaxValue);
     }
-    // Part D 
-    uint myUint = 988562486U;
+    
 
-    public void UIntMinMAx()
+    public void Question4d(UInt32 arg)
     {
         Console.WriteLine(UInt32.MinValue);
         Console.WriteLine(UInt32.MaxValue);
     }
-    // Part E
-    decimal myDecimal1 = -19733.14895M;
 
-    public void DecimalMinMax1()
+    public void Question4e(decimal arg)
     {
         Console.WriteLine(Decimal.MinValue);
         Console.WriteLine(Decimal.MaxValue);
