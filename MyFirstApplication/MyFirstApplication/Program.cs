@@ -18,7 +18,8 @@ inside that member.
  */
 
 // Lesson Examples:
-Lesson8Example();
+Lesson9Example();
+//Lesson8Example();
 // Lesson7Example();
 // Lesson6Example();
 // Lesson5Example();
@@ -28,6 +29,17 @@ Lesson8Example();
 // Lesson1Example();
 // HouseExample(); 
 
+// Lesson 9
+void Lesson9Example()
+{
+    Lesson9 myLesson9 = new Lesson9();
+    Lesson9.Nested nested = new Lesson9.Nested(myLesson9);
+
+    // Access Modifiers
+    myLesson9.SampleInternal();
+    myLesson9.SampleProtectedInternal();
+    
+}
 //Lesson 8
 void Lesson8Example()
 {
