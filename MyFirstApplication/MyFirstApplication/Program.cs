@@ -287,7 +287,7 @@ void Exercise5()
 
 }
 
-Exercise6();
+// Exercise6();
 void Exercise6()
 {
     Exercise6 myExercise6 = new Exercise6("Jordan", 11);
@@ -299,4 +299,17 @@ void Exercise6()
     Exercise6.TryOn theNewShoe;
     theNewShoe = myExercise6.TryOnShoe;
     theNewShoe($"Trying a {myExercise6.shoeType} shoe");
+}
+
+Exercise7();
+void Exercise7()
+{
+    Employee myEmployee = new Employee(514, "Jeff");
+    Console.WriteLine(myEmployee.EmployeeId);
+    Console.WriteLine(myEmployee.EmployeeName);
+
+    Boat material = new Boat("coal");
+    // material.CargoShip();
+    Console.WriteLine(material);
+
 }
