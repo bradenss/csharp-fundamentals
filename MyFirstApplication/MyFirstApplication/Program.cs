@@ -18,6 +18,7 @@ inside that member.
  */
 
 // Lesson Examples:
+Lesson7Example();
 // Lesson6Example();
 // Lesson5Example();
 // Lesson4Example();
@@ -26,6 +27,30 @@ inside that member.
 // Lesson1Example();
 // HouseExample(); 
 
+//Lesson 7
+void Lesson7Example()
+{
+    Location myLocation = new Location(34.5, 47.8);
+    Console.WriteLine(myLocation.Latitude);
+    Console.WriteLine(myLocation);
+
+    // Readonly struct
+    Student myStudent = new Student(10, "Roger");
+    Console.WriteLine(myStudent);
+    Console.WriteLine(myStudent.StudentName);
+
+    // Record
+    Person person = new Person("Nancy", "Drew");
+    Console.WriteLine(person);   
+    Console.WriteLine(person.lastName);
+
+    // Struct Record
+    Resolution res = new Resolution(1920, 1080);
+    res.CalculateRes();
+    Console.WriteLine(res);
+
+
+}
 //Lesson 6
 void Lesson6Example()
 {
