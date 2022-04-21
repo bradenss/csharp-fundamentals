@@ -18,12 +18,42 @@ inside that member.
  */
 
 // Lesson Examples:
-Lesson4Example();
+Lesson5Example();
+//Lesson4Example();
 // Lesson3Example();
 // Lesson2Example()
 // Lesson1Example()
 // HouseExample(); 
 
+// Lesson 5 Expression & Pattern Matching
+void Lesson5Example()
+{
+    Lesson5 myLesson5 = new Lesson5();
+    // Call method of myLEsson5
+    // myLesson5.IsOperatorExample(34);
+
+    Lesson5.Del handler = myLesson5.DelegateMethod;
+    // handler("Hello CSharp");
+
+    // func delegate
+    Func<int, int> add = myLesson5.Sum;
+    // Console.WriteLine($"func example = {add(23)}");
+
+    //lambda Expression
+    // myLesson5.LambdaSquare();
+    // myLesson5.LambdaGreeting();
+
+    // Switch Expressions
+    string value1 = myLesson5.BasicSwitch("red");
+    // Console.WriteLine(value1);
+    string value2 = myLesson5.Favoritecolor("green");
+    // Console.WriteLine(value2);
+
+    // Relational Pattern
+    // myLesson5.DrinkSize(33);
+    myLesson5.TemeratureGuide(48.6);
+    myLesson5.NumberChoice(3);
+}
 // Lesson 4 Control Flow
 void Lesson4Example()
 {
@@ -63,8 +93,6 @@ void Lesson3Example()
 }
 // Lesson 2 Strings
 
-Lesson2Example();
-
 void Lesson2Example()
 {
     Lesson2 myLesson2 = new Lesson2();
@@ -78,7 +106,6 @@ void Lesson2Example()
     Console.WriteLine(myLesson2.MyInterpolationExample("pizza", 3));
     myLesson2.MyOtherInterpolation();
 }
-Lesson1Example();
 
 // Lesson 1 Value Types
 void Lesson1Example()
@@ -102,18 +129,18 @@ void HouseExample()
 
 void CSharpFunction()
 {
-    /*Console.WriteLine("This is my first sentence.");
+    Console.WriteLine("This is my first sentence.");
     Console.WriteLine("I am new to Csharp.");
     Console.WriteLine("This CSharp course is cool.");
-    Console.WriteLine("I am learning stuff every day.");*/
+    Console.WriteLine("I am learning stuff every day.");
 }
 
 
 // Excercise1
-Exercise1Answer();
+// Exercise1();
 
 
-void Exercise1Answer()
+void Exercise1()
 {
     Exercise1 myExercise = new Exercise1();
     // Question 1
@@ -134,7 +161,7 @@ void Exercise1Answer()
     myExercise.Question4e(-19733.14895M);
     ;
 }
-Exercise2();
+// Exercise2();
 
 // Excercise 2
 void Exercise2()
@@ -152,7 +179,7 @@ void Exercise2()
     Console.WriteLine(myExercise2.Question4c("Speers"));
     Console.WriteLine(myExercise2.Question4d("Mountain Dew"));
 }
-Exercise3();
+// Exercise3();
 
 // Exercise 3
 void Exercise3()
@@ -170,7 +197,7 @@ void Exercise3()
     // Question 4
     myExercise3.Question4(true, false);
 }
-Exercise4();
+// Exercise4();
 
 // Excercise 4
 void Exercise4()
