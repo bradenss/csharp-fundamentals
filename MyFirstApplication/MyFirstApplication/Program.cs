@@ -18,8 +18,9 @@ inside that member.
  */
 
 // Lesson Examples:
-Lesson9Example();
-//Lesson8Example();
+// Lesson10Example();
+// Lesson9Example();
+// Lesson8Example();
 // Lesson7Example();
 // Lesson6Example();
 // Lesson5Example();
@@ -27,8 +28,55 @@ Lesson9Example();
 // Lesson3Example();
 // Lesson2Example();
 // Lesson1Example();
+HouseUpdate();
 // HouseExample(); 
 
+// HouseUpdate
+void HouseUpdate()
+{
+    // Calling Default
+    House myHouse = new House();
+    Console.WriteLine(myHouse.RoofType);
+    myHouse.DoorOpenClose();
+
+    // Calling Coonstructor with 2 parameters
+    House mySecond = new House("straw", "bamboo");
+    Console.WriteLine(mySecond.WindowSize);
+    mySecond.DoorOpenClose();
+
+    // Calling Constructor with 4 parameters
+    House myThird = new House("dirt", "plastic", "green", 40);
+    Console.WriteLine(myThird.RoofType);
+    myThird.DoorOpenClose();
+}
+
+// Lesson 10
+void Lesson10Example()
+{
+    Lesson10 myLesson10 = new Lesson10();
+
+    // Using this to call another constructor
+    Console.WriteLine(myLesson10.FirstName);
+    Console.WriteLine(myLesson10.LastName);
+
+    // Nomral property
+    myLesson10.FirstName = "Paul";
+    Console.WriteLine(myLesson10.FirstName);
+
+    // Calling Auto Prtoperty
+    // myLesson10.LastName = "smith"; // only works in Lesson10constructor
+    Console.WriteLine(myLesson10.Id); // default value
+    myLesson10.Id = 1500;
+    Console.WriteLine(myLesson10.Id); // get 1500
+
+    // Expression Body Property
+    myLesson10.Address = "123 Main St.";
+    Console.WriteLine(myLesson10.Address);
+
+    // Second constructor
+    Lesson10 myOther10 = new Lesson10("Ben", "Franklin", 64119);
+    Console.WriteLine(myOther10.Zipcode);
+}
 // Lesson 9
 void Lesson9Example()
 {
