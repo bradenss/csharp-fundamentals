@@ -481,3 +481,17 @@ void ExerciseBoat()
     Console.WriteLine(myTugBoat.HullShape);
     myTugBoat.HullShape1();
 }
+
+Exercise13();
+void Exercise13()
+{
+    WaterBirds2 exercise13 = new WaterBirds2(3);
+    double total1 = exercise13.Eagles();
+    int total2 = exercise13.Falcon();
+
+    Console.WriteLine($"The Falcon is going this fast {total1}.");
+    Console.WriteLine($"The Eagle is going this fast {total2}.");
+
+    int total3 = exercise13.QuikSilver();
+    Console.WriteLine($"Wow, QuikSilver is going this fast {total3}.");
+}

@@ -27,7 +27,7 @@ internal abstract class Lesson13Base : ILesson13Interface
         this.num = num;
     }
 
-    // Abstract Methos
+    // Abstract Methods
     public abstract int ConvertFeetToInches();
     public abstract int ConvertYardstoFeet();
 
