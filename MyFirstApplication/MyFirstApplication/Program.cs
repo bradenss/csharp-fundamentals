@@ -18,6 +18,7 @@ inside that member.
  */
 
 // Lesson Examples:
+Lesson11Example();
 // Lesson10Example();
 // Lesson9Example();
 // Lesson8Example();
@@ -28,9 +29,19 @@ inside that member.
 // Lesson3Example();
 // Lesson2Example();
 // Lesson1Example();
-HouseUpdate();
+// HouseUpdate();
 // HouseExample(); 
 
+void Lesson11Example()
+{
+    Square square = new Square();
+    double total = square.CalculateInteriorAngle();
+    Console.WriteLine(total);
+
+    Triangle triangle = new Triangle();
+    double total2 = triangle.CalculateInteriorAngle();
+    Console.WriteLine(total2);
+}
 // HouseUpdate
 void HouseUpdate()
 {
