@@ -520,10 +520,21 @@ void Exercise13()
     Console.WriteLine($"Wow, QuikSilver is going this fast {total3}.");
 }
 
-Exercise14();
+// Exercise14();
 void Exercise14()
 {
     Exercise14 myexercise14 = new Exercise14();
     myexercise14.Question1();
     myexercise14.ChiefsScore();
+}
+
+Exercise15();
+void Exercise15()
+{
+    Exercise15 myexercise15 = new Exercise15();
+    string favorite = myexercise15.Question1(FavoriteMovie.LOTR);
+    Console.WriteLine(favorite);
+    myexercise15.FavoriteMovies();
+    (int val1, string val2) = myexercise15.Question2(11, "Adapt");
+    Console.WriteLine($"Answer are {val1}, {val2}");
 }
