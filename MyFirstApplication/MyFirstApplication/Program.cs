@@ -18,7 +18,8 @@ inside that member.
  */
 
 // Lesson Examples:
-Lesson14Example();
+Lesson15Example();
+// Lesson14Example();
 // Lesson13Example();
 // Lesson12Example();
 // Lesson11Example();
@@ -36,6 +37,17 @@ Lesson14Example();
 // HouseUpdate();
 // HouseExample(); 
 
+//Lesson 15
+void Lesson15Example()
+{
+    Lesson15 myLesson15 = new Lesson15();
+    // myLesson15.EnumExample();
+    string flavor = myLesson15.FavoriteIceCream(IceCreamFlavors.Choclate);
+    // Console.WriteLine(flavor);
+    // myLesson15.TupleExample();
+    (int val1, int val2, int val3) = myLesson15.TupleReturnExample(11, 35);
+    Console.WriteLine($"Answer are {val1}, {val2}, {val3}");
+}
 // Lesson 14
 void Lesson14Example()
 {
