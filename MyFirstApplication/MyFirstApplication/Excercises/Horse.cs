@@ -19,17 +19,37 @@ class, your method for Horse
     public string Breed { get; set; }
     public int LoadCapacity { get; set; }
 
+    /*
+     In your Horse class, add the virtual keyword to your method created in
+Lesson 10. Create a second version of the same method and add a
+parameter. Include a Console WriteLine method in the new method that
+uses the parameter. This parameter needs to be based on one of your
+properties.
+     */
+    private int _jumphieght;
+    public int JumpHieght
+    {
+        get { return _jumphieght; }
+        set { _jumphieght = value; }
+    }
+
     public Horse()
     {
+        JumpHieght = 10;
         Hieght = 10;
         Breed = "Race Horse";
         LoadCapacity = 200;
     }
-    public Horse(int hieght, string breed, int loadcapacity)
+    public Horse(int hieght, string breed, int loadcapacity, int _jumphieght)
     {
+        JumpHieght = _jumphieght;
         Hieght = hieght;
         Breed = breed;
         LoadCapacity = loadcapacity;
+    }
+    public virtual void JumpHieght1()
+    {
+        Console.WriteLine($"Wow the {Breed} can jump {JumpHieght!}");
     }
 
 }
@@ -54,17 +74,30 @@ constructor. Also include in the class, your method for your child class.
 public class Yak : Horse
 {
     public int Speed { get; init; }
+    /*
+     In your child class of Horse, using the override keyword create a method
+that has the same name as the virtual method from Horse. Add a Console
+WriteLine that provides a different message from the Horse.
+     */
+    private int _jumphieght;
 
-    public Yak(int speed)
-    { 
+    public Yak(int speed, int _jumphieght)
+    {
+        JumpHieght = _jumphieght;
         Speed = speed;
         Hieght = 10;
         Breed = "Norwegian";
         LoadCapacity = 500;
     }
     public Yak()
-       : this(8)
+       : this(8, 10)
     { }
-        
     
+
+    public override void JumpHieght1()
+    {
+        base.JumpHieght1();
+        Console.WriteLine($"That is a {Breed}.");
+    }
+
 }

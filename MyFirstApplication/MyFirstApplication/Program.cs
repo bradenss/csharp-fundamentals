@@ -443,12 +443,13 @@ void Horse()
     Console.WriteLine(myHorse.Breed);
     Console.WriteLine(myHorse.LoadCapacity);
 
-    Yak yak = new Yak(20);
+    Yak yak = new Yak(20, 10);
     Console.WriteLine(yak.Hieght);
     Console.WriteLine(yak.Breed);
     Console.WriteLine(yak.LoadCapacity);
     Console.WriteLine(yak.Speed);
-
+    Console.WriteLine(yak.JumpHieght);
+    yak.JumpHieght1();
 }
 
 ExerciseBoat();
@@ -457,9 +458,11 @@ void ExerciseBoat()
     ExerciseBoat1 myBoat = new ExerciseBoat1();
     myBoat.BoatAnswer();
 
-    TugBoat myTugBoat = new TugBoat(20);
+    TugBoat myTugBoat = new TugBoat(20, "Y");
     Console.WriteLine(myTugBoat.Speed);
     Console.WriteLine(myTugBoat.Size);
     Console.WriteLine(myTugBoat.LoadCapacity);
     Console.WriteLine(myTugBoat.Type);
+    Console.WriteLine(myTugBoat.HullShape);
+    myTugBoat.HullShape1();
 }
