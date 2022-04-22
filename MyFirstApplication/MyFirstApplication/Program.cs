@@ -507,3 +507,11 @@ void Exercise13()
     int total3 = exercise13.QuikSilver();
     Console.WriteLine($"Wow, QuikSilver is going this fast {total3}.");
 }
+
+Exercise14();
+void Exercise14()
+{
+    Exercise14 myexercise14 = new Exercise14();
+    myexercise14.Question1();
+    myexercise14.ChiefsScore();
+}

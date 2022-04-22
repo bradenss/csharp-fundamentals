@@ -46,7 +46,7 @@ internal class Lesson14
     {
         string[,] myStringArray = { { "happy", "coding", "day", 
                 "sad", "deployed", "bugs"} };
-        for(int i=0; i < myStringArray.GetLength(0); i++)
+        for(int i = 0; i < myStringArray.GetLength(0); i++)
         {
             for(int k = 0; k < myStringArray.GetLength(1); k++)
             {
