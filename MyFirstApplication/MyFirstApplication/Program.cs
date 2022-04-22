@@ -388,15 +388,31 @@ void Exercise7()
     Console.WriteLine(myEmployee.EmployeeId);
     Console.WriteLine(myEmployee.EmployeeName);
 
-    Boat material = new Boat("coal");
+    ExerciseBoat material = new ExerciseBoat("coal");
     // material.CargoShip();
     Console.WriteLine(material);
 }
 
-Exercise8();
+// Exercise8();
 void Exercise8()
 {
     Exercise8 myExercise8 = new Exercise8(2);
     myExercise8.Question1();
     Console.WriteLine(Exercise8static.Question2(45, 45));
+}
+
+Horse();
+void Horse()
+{
+    Horse myHorse = new Horse(7, "Yak", 250);
+    Console.WriteLine(myHorse.Hieght);
+    Console.WriteLine(myHorse.Breed);
+    Console.WriteLine(myHorse.LoadCapacity);
+}
+
+ExerciseBoat();
+void ExerciseBoat()
+{
+    ExerciseBoat1 myBoat = new ExerciseBoat1();
+    myBoat.BoatAnswer();
 }

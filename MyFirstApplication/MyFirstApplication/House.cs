@@ -3,10 +3,10 @@ namespace MyFirstApplication;
 
 public class House
 {
-    public string Foundation { get; set; }
-    public string RoofType { get; set; }
-    public string DoorColor { get; set; }
-    public int WindowSize { get; set; }
+    public string Foundation { get; init; }
+    public string RoofType { get; init; }
+    public string DoorColor { get; init; }
+    public int WindowSize { get; init; }
 
     public House()
         :this("concrete", "shingle")

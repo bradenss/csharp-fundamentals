@@ -1,7 +1,7 @@
 ﻿
 namespace MyFirstApplication;
 
-internal record struct Boat(string message)
+internal record struct ExerciseBoat(string message)
 {
     /*
 Create a Record based on your Boat object from the Object Oriented
