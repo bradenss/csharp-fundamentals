@@ -18,7 +18,7 @@ inside that member.
  */
 
 // Lesson Examples:
-Lesson16Example();
+// Lesson16Example();
 // Lesson15Example();
 // Lesson14Example();
 // Lesson13Example();
@@ -548,4 +548,13 @@ void Exercise15()
     myexercise15.FavoriteMovies();
     (int val1, string val2) = myexercise15.Question2(11, "Adapt");
     Console.WriteLine($"Answer are {val1}, {val2}");
+}
+
+// Exercise 16
+Exercise16();
+void Exercise16()
+{
+    Exercise16 myexercise16 = new Exercise16();
+    myexercise16.Question1();
+    myexercise16.FavoriteMovie();
 }
