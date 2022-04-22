@@ -16,6 +16,15 @@ public class Polygon
         NumberOfSides = 1;
     }
 
+    /*
+     This constructor will be accessed from the child class using
+    the base in its constructor.
+     */
+    public Polygon(int sides)
+    {
+        NumberOfSides = sides;
+    }
+
     internal double CalculateInteriorAngle()
     {
         return (NumberOfSides - 2) * 180 / NumberOfSides;
@@ -27,8 +36,9 @@ public class Polygon
 public class Square : Polygon
 {
     public Square()
+        : base(4)
     {
-        NumberOfSides = 4;
+        // NumberOfSides = 4;
     }
 }
 
@@ -36,22 +46,10 @@ public class Square : Polygon
 public class Triangle : Polygon
 {
     public Triangle()
+        // : base(3)
     {
-        NumberOfSides = 3;
+         NumberOfSides = 3;
     }
 
-    public override bool Equals(object? obj)
-    {
-        return base.Equals(obj);
-    }
-
-    public override int GetHashCode()
-    {
-        return base.GetHashCode();
-    }
-
-    public override string? ToString()
-    {
-        return base.ToString();
-    }
+    
 }

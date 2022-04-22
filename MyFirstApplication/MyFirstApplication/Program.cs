@@ -415,10 +415,17 @@ void Exercise8()
 Horse();
 void Horse()
 {
-    Horse myHorse = new Horse(7, "Yak", 250);
+    Horse myHorse = new Horse();
     Console.WriteLine(myHorse.Hieght);
     Console.WriteLine(myHorse.Breed);
     Console.WriteLine(myHorse.LoadCapacity);
+
+    Yak yak = new Yak(20);
+    Console.WriteLine(yak.Hieght);
+    Console.WriteLine(yak.Breed);
+    Console.WriteLine(yak.LoadCapacity);
+    Console.WriteLine(yak.Speed);
+
 }
 
 ExerciseBoat();
@@ -426,4 +433,10 @@ void ExerciseBoat()
 {
     ExerciseBoat1 myBoat = new ExerciseBoat1();
     myBoat.BoatAnswer();
+
+    TugBoat myTugBoat = new TugBoat(20);
+    Console.WriteLine(myTugBoat.Speed);
+    Console.WriteLine(myTugBoat.Size);
+    Console.WriteLine(myTugBoat.LoadCapacity);
+    Console.WriteLine(myTugBoat.Type);
 }

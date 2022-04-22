@@ -1,7 +1,7 @@
 ﻿
 namespace MyFirstApplication;
 
-internal class ExerciseBoat1
+public class ExerciseBoat1
 {
     /*
      Create a class based on your Boat object. You will follow the same
@@ -28,7 +28,20 @@ as Expression Body Definition Properties.
         Console.WriteLine($"My boat is a {Type}.");
         Console.WriteLine($"My boat can carry {LoadCapacity}lbs!");
     }
-    
+}
 
+public class TugBoat : ExerciseBoat1
+    {
+    public int Speed { get; init; }
 
+    public TugBoat(int speed)
+    {
+        Speed = speed;
+        Size = 10;
+        Type = "TugBoat";
+        LoadCapacity = 20000;
+    }
+    public TugBoat()
+       : this(8)
+    { }
 }
