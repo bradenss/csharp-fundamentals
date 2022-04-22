@@ -18,7 +18,8 @@ inside that member.
  */
 
 // Lesson Examples:
-Lesson11Example();
+// Lesson12Example();
+// Lesson11Example();
 // Lesson10Example();
 // Lesson9Example();
 // Lesson8Example();
@@ -29,9 +30,22 @@ Lesson11Example();
 // Lesson3Example();
 // Lesson2Example();
 // Lesson1Example();
+CondoExample();
 // HouseUpdate();
 // HouseExample(); 
 
+
+//Lesson 12
+void Lesson12Example()
+{
+    Fruit myFruit = new Fruit();
+    myFruit.EatFruit();
+    myFruit.EatFruit(5);
+
+    Apple myApple = new Apple { };
+    myApple.EatFruit();
+}
+// Lesson 11
 void Lesson11Example()
 {
     Square square = new Square();
@@ -274,6 +288,15 @@ void Lesson1Example()
     myLesson.LongFromInt();
 }
 
+// Condo example/inheritance
+void CondoExample()
+{
+    Condo myCondo = new Condo();
+    myCondo.Maintenance();
+    myCondo.DoorOpenClose();
+    Console.WriteLine(myCondo.RoofType);
+}
+// House Example
 void HouseExample()
 {
     House myHouse = new House();
