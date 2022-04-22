@@ -18,7 +18,8 @@ inside that member.
  */
 
 // Lesson Examples:
-Lesson15Example();
+Lesson16Example();
+// Lesson15Example();
 // Lesson14Example();
 // Lesson13Example();
 // Lesson12Example();
@@ -37,7 +38,15 @@ Lesson15Example();
 // HouseUpdate();
 // HouseExample(); 
 
-//Lesson 15
+// Lesson 16
+void Lesson16Example()
+{
+    Lesson16 myLesson16 = new Lesson16();
+    // myLesson16.MyListExample();
+    myLesson16.MyDictionaryExample();
+}
+
+// Lesson 15
 void Lesson15Example()
 {
     Lesson15 myLesson15 = new Lesson15();
@@ -48,6 +57,7 @@ void Lesson15Example()
     (int val1, int val2, int val3) = myLesson15.TupleReturnExample(11, 35);
     Console.WriteLine($"Answer are {val1}, {val2}, {val3}");
 }
+
 // Lesson 14
 void Lesson14Example()
 {
@@ -58,6 +68,7 @@ void Lesson14Example()
     // myLesson14.MultiStringArray();
     myLesson14.JaggedArraySample();
 }
+
 // Lesson 13
 void Lesson13Example()
 {
@@ -473,7 +484,7 @@ void Exercise8()
     Console.WriteLine(Exercise8static.Question2(45, 45));
 }
 
-Horse();
+// Horse();
 void Horse()
 {
     Horse myHorse = new Horse();
@@ -490,7 +501,7 @@ void Horse()
     yak.JumpHieght1();
 }
 
-ExerciseBoat();
+// ExerciseBoat();
 void ExerciseBoat()
 {
     ExerciseBoat1 myBoat = new ExerciseBoat1();
@@ -528,7 +539,7 @@ void Exercise14()
     myexercise14.ChiefsScore();
 }
 
-Exercise15();
+// Exercise15();
 void Exercise15()
 {
     Exercise15 myexercise15 = new Exercise15();
