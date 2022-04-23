@@ -18,6 +18,7 @@ inside that member.
  */
 
 // Lesson Examples:
+Lesson17Example();
 // Lesson16Example();
 // Lesson15Example();
 // Lesson14Example();
@@ -38,6 +39,15 @@ inside that member.
 // HouseUpdate();
 // HouseExample(); 
 
+// Lesson 17
+void Lesson17Example()
+{
+    Lesson17 myLesson17 = new Lesson17();
+    House testHouse = null;
+    // myLesson17.MyThrowExample(testHouse);
+    // myLesson17.MyExceptionExample(testHouse);
+    myLesson17.MyArrayException();
+}
 // Lesson 16
 void Lesson16Example()
 {
