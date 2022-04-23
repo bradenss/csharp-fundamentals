@@ -568,3 +568,12 @@ void Exercise16()
     myexercise16.Question1();
     myexercise16.FavoriteMovie();
 }
+// Exercise 17
+Exercise17(); 
+    void Exercise17()
+{
+    Exercise17 myexercise17 = new Exercise17();
+    myexercise17.Question1(5, 0);
+    Horse horse = null;
+    myexercise17.Question2(horse);
+}
