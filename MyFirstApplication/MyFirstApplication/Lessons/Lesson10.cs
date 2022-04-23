@@ -40,7 +40,7 @@ public class Lesson10
     }
 
     // default constructor
-    public Lesson10()
+    public Lesson10(int v)
         :this("John","Doe", 64082) { }
 
     // constructor using this with variables

@@ -138,7 +138,7 @@ void HouseUpdate()
 // Lesson 10
 void Lesson10Example()
 {
-    Lesson10 myLesson10 = new Lesson10();
+    Lesson10 myLesson10 = new Lesson10(10);
 
     // Using this to call another constructor
     Console.WriteLine(myLesson10.FirstName);
