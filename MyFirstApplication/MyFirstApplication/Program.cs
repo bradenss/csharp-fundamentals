@@ -18,7 +18,7 @@ inside that member.
  */
 
 // Lesson Examples:
-Lesson17Example();
+// Lesson17Example();
 // Lesson16Example();
 // Lesson15Example();
 // Lesson14Example();
@@ -38,6 +38,7 @@ Lesson17Example();
 // CondoExample();
 // HouseUpdate();
 // HouseExample(); 
+
 
 // Lesson 17
 void Lesson17Example()
